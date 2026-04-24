@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de animales exóticos | Escamas Exóticas</title>
+    <meta name="description" content="Descubre reptiles, aves y mamíferos exóticos disponibles. Cada ficha incluye cuidados, hábitat y contacto directo para adquisición responsable.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Escamas Exóticas</h1>
+                <p class="logo-sub">Catálogo de especies</p>
+            </div>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menú">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html#servicios">Servicios</a></li>
+                    <li><a href="catalogo.html" class="active">Catálogo</a></li>
+                    <li><a href="index.html#nosotros">Nosotros</a></li>
+                    <li><a href="index.html#contacto">Contacto</a></li>
+                    <li><a href="index.html#ubicacion">Ubicación</a></li>
+                    <li><a href="index.html#citas" class="btn-cita-nav">Agendar cita</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="catalogo-hero">
+            <div class="container">
+                <h1>Nuestros animales exóticos</h1>
+                <p>Especies seleccionadas con ética, cada ficha incluye sus necesidades básicas para una tenencia responsable.</p>
+            </div>
+        </section>
+
+        <section class="catalogo-grid-section">
+            <div class="container">
+                <div class="filtros-catalogo">
+                    <button class="filtro-btn active" data-filtro="todos">Todos</button>
+                    <button class="filtro-btn" data-filtro="reptil">Reptiles</button>
+                    <button class="filtro-btn" data-filtro="ave">Aves</button>
+                    <button class="filtro-btn" data-filtro="mamifero">Mamíferos exóticos</button>
+                </div>
+                <div id="catalogo-container" class="catalogo-grid">
+                    <!-- Las tarjetas se cargarán dinámicamente desde animales.json -->
+                    <p class="loading">Cargando catálogo...</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Escamas Exóticas</h3>
+                    <p>Cuidando todas las especies con excelencia</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Inicio</a>
+                    <a href="index.html#servicios">Servicios</a>
+                    <a href="catalogo.html">Catálogo</a>
+                    <a href="index.html#nosotros">Nosotros</a>
+                    <a href="index.html#contacto">Contacto</a>
+                </div>
+                <div class="footer-copy">
+                    <p>&copy; 2025 Escamas Exóticas - Todos los derechos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/catalogo.js"></script>
+</body>
+</html>

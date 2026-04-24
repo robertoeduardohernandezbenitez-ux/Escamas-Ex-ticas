@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "nombre": "Camaleón Pantera",
+    "especie": "Furcifer pardalis",
+    "categoria": "reptil",
+    "foto": "https://placehold.co/400x300/2c7da0/white?text=Camaleón+Pantera",
+    "cuidados": "Requiere terrario vertical con ramas, temperatura 26-30°C, humedad 60-80%, alimentación con insectos vivos (grillos, langostas). Necesita luz UVB y suplementos de calcio.",
+    "habitat": "Selvas de Madagascar. En cautiverio necesita un ambiente bien ventilado y con follaje natural.",
+    "alimentacion": "Insectívoro: grillos, cucarachas, gusanos de seda. Suplementos vitamínicos cada 2 tomas.",
+    "contactoWhatsApp": "Me interesa el Camaleón Pantera, ¿podrían darme más información sobre cuidados y disponibilidad?"
+  },
+  {
+    "id": 2,
+    "nombre": "Gecko Leopardo",
+    "especie": "Eublepharis macularius",
+    "categoria": "reptil",
+    "foto": "https://placehold.co/400x300/2c7da0/white?text=Gecko+Leopardo",
+    "cuidados": "Terrario seco con escondites, temperatura gradiente 26-32°C, alimentación con insectos. Fácil manejo, ideal para principiantes.",
+    "habitat": "Zonas áridas de Afganistán, Pakistán e India. Requiere sustrato arenoso o losas térmicas.",
+    "alimentacion": "Grillos, tenebrios, cucarachas. Calcio en polvo 2 veces por semana.",
+    "contactoWhatsApp": "Hola, quiero adoptar un Gecko Leopardo. Necesito asesoría sobre terrario y alimentación."
+  },
+  {
+    "id": 3,
+    "nombre": "Loro Gris Africano",
+    "especie": "Psittacus erithacus",
+    "categoria": "ave",
+    "foto": "https://placehold.co/400x300/2c7da0/white?text=Loro+Gris",
+    "cuidados": "Jaula grande con juguetes, dieta variada, estimulación mental diaria. Muy inteligente, requiere socialización.",
+    "habitat": "Selvas tropicales de África Central. Necesita espacio para volar y posaderos naturales.",
+    "alimentacion": "Base de pellets de calidad, frutas, verduras, nueces. Evitar aguacate y chocolate.",
+    "contactoWhatsApp": "Estoy interesado en el Loro Gris Africano. ¿Tienen ejemplares disponibles? También quisiera saber sobre su proceso de adopción."
+  },
+  {
+    "id": 4,
+    "nombre": "Erizo Africano Pigmeo",
+    "especie": "Atelerix albiventris",
+    "categoria": "mamifero",
+    "foto": "https://placehold.co/400x300/2c7da0/white?text=Erizo+Pigmeo",
+    "cuidados": "Terrario o jaula amplia con rueda de ejercicio, temperatura 24-27°C. Son nocturnos y solitarios.",
+    "habitat": "Sabanas y estepas de África. En cautiverio necesitan escondites y sustrato absorbente.",
+    "alimentacion": "Insectos, pienso para erizos o gato de alta calidad, verduras cocidas.",
+    "contactoWhatsApp": "Me encantaría adoptar un Erizo Africano. ¿Podrían orientarme sobre cuidados básicos y si tienen crías disponibles?"
+  }
+]
